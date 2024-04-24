@@ -3,9 +3,11 @@
 <!--https://fonts.google.com/-->
 <!--https://developer.mozilla.org/pt-BR/docs/Web/HTML-->
 <!--https://css-tricks.com/-->
+<!--https://www.w3schools.com/-->
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,25 +15,36 @@
     <title>Chama</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--Cabeçalho-->
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu_links" href="inedex.html">Home</a>
+            <a class="cabecalho__menu_links" href="aboutme.html">Sobre Mim</a>
+        </nav>
+    </header>
 
     <!--Conteudo principal da pagina-->
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nivel <strong class="Titulo-destaque">com um Cristal de qualidade</strong></h1>
-            <p class="apresentacao__conteudo__paragrafo">Olá! Sou Walter White, quimico com especialidade em Cristal. Ajudo pequenos negócios e vendedores a colocarem em prática boas ideias. Vamos conversar?</p>
-            <div class="links">
-                <a class="botao" href="https://google.com">Instagram</a>
-                <a class="botao" href="https://github.com/Waltet_White">Github</a>
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nivel<strong 
+            class="titulo-destaque"> com um Cristal de qualidade
+            </strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Walter White, quimico com especialidade em Cristal. Ajudo pequenos negócios e vendedores a colocarem em prática boas ideias. Vamos conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links__link" href="https://google.com"><img src="imagens/instagram.png">Instagram</a>
+                <a class="apresentacao__links__link" href="https://github.com/Walter_White"><img src="imagens/github.png">GitHub</a>
             </div>
         </section>
-        <img src="imagens/transferir.jpeg" alt="Walter White">
+        <img class="imagem" src="imagens/transferir.jpeg" alt="Foto do WalterWhite">
     </main>
 
     <!--Rodape da pagina-->
-    <footer></footer>
+    <footer>
+        <p class="rodape">Desenvolvido por Ajuste</p>
+    </footer>
     <!--
     <h1>Isso eh  um titulo (h1)</h1>
     <h2>Isso eh um subtitulo (h2)</h2>
@@ -40,4 +53,5 @@
     <img src="transferir.jpeg" alt="Logo do Html">
     -->
 </body>
+
 </html>
